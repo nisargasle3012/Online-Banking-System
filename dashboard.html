@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to Your Dashboard</h2>
+        <div id="balanceContainer">
+            <h3>Your Balance: <span id="balance">Loading...</span></h3>
+        </div>
+        <div class="actions">
+            <button onclick="location.href='deposit.html'">Deposit Funds</button>
+            <button onclick="location.href='withdraw.html'">Withdraw Funds</button>
+            <button onclick="location.href='transfer.html'">Transfer Funds</button>
+            <button onclick="location.href='transactions.html'">Transaction History</button>
+            <button onclick="location.href='login.html'">Log Out</button>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
+
